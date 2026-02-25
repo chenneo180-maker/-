@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+  --radius-full: 9999px;
+}
+
+@layer base {
+  body {
+    @apply bg-[#FAF9F6] text-[#362223] font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
+
+.hananeco-card {
+  @apply bg-white border border-[#E8E4DF] shadow-[0_4px_20px_rgba(54,34,35,0.04)] rounded-[32px];
+}
+
+.hananeco-button {
+  @apply px-6 py-3 bg-[#362223] text-white rounded-full font-medium transition-all hover:bg-[#4D3132] active:scale-95 shadow-md;
+}
+
+.hananeco-input {
+  @apply w-full p-4 bg-white border border-[#E8E4DF] rounded-2xl focus:ring-2 focus:ring-[#362223]/10 focus:border-[#362223] transition-all outline-none;
+}
+
+.pill-image {
+  @apply rounded-full aspect-[3/4] object-cover;
+}
+
+.glass-nav {
+  @apply bg-white/70 backdrop-blur-xl border-b border-[#E8E4DF] sticky top-0 z-50;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
