@@ -117,7 +117,7 @@ const COURSES: Course[] = [
     subtitle: '獻給烘焙新手的第一堂課',
     difficulty: 1,
     description: '如果你是烘焙新手，想要初踏入烘焙大門！不妨從橙工房經典的基礎課程開啟吧！為期 4 堂課程，幫您重新建立基礎蛋糕理論。探討甜點界最精深的學問：磅蛋糕、戚風蛋糕、海綿蛋糕、蛋糕捲。',
-    image: 'https://picsum.photos/seed/bakery-cake/800/600',
+    image: 'https://blogger.googleusercontent.com/img/a/AVvXsEgiA9l366po_8T2s2avQWbSXphl9i8eK2simQlA9uIfJlyu5GqzONkktNpCRwiEeuTQP9paraM92KZdJ25yNfqZ0v5IjC6CZiLCSeuEu99804PT_teU64y4GYmCnCGIjT9YMWjliML3v_US3gJSvfVJSUGg0zrKgeZDQkFbjHqSb_hxMsFWglfbyd96OXs',
     lessons: ['老奶奶檸檬磅蛋糕', '輕甜芋香海綿蛋糕', '唐寧伯爵奶茶生乳捲', '鹽漬櫻花紅豆抹茶戚風']
   },
   {
@@ -126,7 +126,7 @@ const COURSES: Course[] = [
     subtitle: '融會貫通塔派知識',
     difficulty: 1,
     description: '建構式系統化教學：甜酥、沙布列、油酥、酥脆麵團。再也不會塔、派傻傻分不清！為期 4 堂課程，帶你融會貫通塔派知識。',
-    image: 'https://picsum.photos/seed/bakery-pastry/800/600',
+    image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjNjXUYeHvLbWWGI3OC5OzxobP3bypD2LfDzS6Q0p4r6Lqwawee-lLCfq7Kq8t08raJUw1O_ObeWJlyqnEfB4yCmTpBw6ngmYdggIaKn_HTUQQtN3ukpvkU6CG_OGNDJLDUevzzEyEk_ITuJQ5bgh_2kSNDTMQvpy3_t-dV6M-GNFJML1VCipV9w9U1dbs',
     lessons: ['香烤蜂蜜乳酪葡萄柚塔', '青檸蘿勒檸檬字母塔', '法式杏仁生巧克力塔', '法式肉桂杏仁蘋果塔']
   },
   {
@@ -135,7 +135,7 @@ const COURSES: Course[] = [
     subtitle: '油、糖、粉的比例運用',
     difficulty: 2,
     description: '餅乾雖常被視為烘焙入門，但光是「油、糖、粉」的比例運用，就有千萬種變化。餅乾研修的 3 堂課，包含各 5-7 種餅乾，帶你進入夢幻世界。',
-    image: 'https://picsum.photos/seed/bakery-cookies/800/600',
+    image: 'https://blogger.googleusercontent.com/img/a/AVvXsEi-byNZFOukgOZ_frqbOu5llpJrvLdy_bnHR31L3nn7R2KBz2qdplXa-6ljLoBIsu6kTDAWUA2cF4nJXU3aRTbUD8TBQ0mr3VLYsNzx07MOcGUxDOTrknRYDN3ZUCCknoA9va4FUCtKXTtga9JBtw09d_lwff2afQpTr9QXAiLYUzj1KYWu8PuXnVY9pFI',
     lessons: ['古早味台灣餅乾盒', '許願餅乾盒', '小花圈餅乾盒']
   },
   {
@@ -144,7 +144,7 @@ const COURSES: Course[] = [
     subtitle: '掌握發酵與揉捏的藝術',
     difficulty: 3,
     description: '深入探討歐式麵包與日式軟麵包的差異，從菌種培養到烘烤出爐，完整掌握麵包靈魂。',
-    image: 'https://picsum.photos/seed/bakery-bread/800/600',
+    image: 'https://blogger.googleusercontent.com/img/a/AVvXsEj65ugYtFB-nkmKJL_MC_4xZPb-k7a3hdUynDARY4WwXmhMyg6806efT_GllLlO099olbevOLuqTpgog2BJgU7cKJfvYl3lYjLFkKrL_TzX7FCRCVWY7CE1ql71dSy9_xoh0YIKPVxSu1Dv_BYwlJrMSNufDsfxOtlJByvzoF9T7ggGs76Hk6ZtW7LI9b4',
     lessons: ['低溫熟成法國長棍', '日式生吐司', '手作肉桂捲', '天然酵母鄉村麵包']
   }
 ];
@@ -468,7 +468,7 @@ const Header = ({ onViewChange, currentView }: { onViewChange: (view: 'preorder'
         <div className="flex items-center gap-2.5 cursor-pointer" onClick={() => handleNavClick('courses')}>
           <div className="w-10 h-10 md:w-12 md:h-12 bg-white rounded-xl flex items-center justify-center overflow-hidden border border-slate-100">
             <img 
-              src="https://picsum.photos/seed/citrus-logo/200/200" 
+              src="https://scontent.ftpe1-3.fna.fbcdn.net/v/t39.30808-1/495579313_983653940612403_7341902471970313610_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=LCQdqEJrUXkQ7kNvwERdHM8&_nc_oc=AdmAGxY-46m-5NXi2-lgd87jE7QThllvRvHsR5nkvLtRQbjrHjfC6ZDwRUXMr9rkLucJAvbqgEFVoPZ_nl7CtMji&_nc_zt=24&_nc_ht=scontent.ftpe1-3.fna&_nc_gid=7hEnjvnquREnT2It3l9gdQ&_nc_ss=8&oh=00_AfzgsROhpgJ80PffewT9kn8HDCg1Qg85nwPfL9o2E2wE8w&oe=69AAC719" 
               alt="澄工房 Logo" 
               className="w-full h-full object-contain"
               referrerPolicy="no-referrer"
@@ -622,7 +622,7 @@ export default function App() {
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center overflow-hidden border border-slate-100">
                 <img 
-                  src="https://picsum.photos/seed/citrus-logo/200/200" 
+                  src="https://scontent.ftpe1-3.fna.fbcdn.net/v/t39.30808-1/495579313_983653940612403_7341902471970313610_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=LCQdqEJrUXkQ7kNvwERdHM8&_nc_oc=AdmAGxY-46m-5NXi2-lgd87jE7QThllvRvHsR5nkvLtRQbjrHjfC6ZDwRUXMr9rkLucJAvbqgEFVoPZ_nl7CtMji&_nc_zt=24&_nc_ht=scontent.ftpe1-3.fna&_nc_gid=7hEnjvnquREnT2It3l9gdQ&_nc_ss=8&oh=00_AfzgsROhpgJ80PffewT9kn8HDCg1Qg85nwPfL9o2E2wE8w&oe=69AAC719" 
                   alt="澄工房 Logo" 
                   className="w-full h-full object-contain"
                   referrerPolicy="no-referrer"
